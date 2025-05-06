@@ -8,27 +8,82 @@
   </head>
   <body>
     <!-- header section -->
-     <header>
-      <nav class="max-w-[1440px] container mx-auto flex px-4 py-4 items-center justify-between">
-      <a href="">
-        <div class="flex items-center gap-2 text-2xl font-bold">
-          <img src="./images/logo.png" alt="logo" class="h-8">
-          <span class="text-primary">LaslesVPN</span>
-        </div>
+    <header class="">
+      <nav class="flex justify-between items-center py-4 px-4 container mx-auto max-w-[1440px] ">
+        <a href="">
+          <div class="flex items-center gap-2 text-2xl font-bold">
+            <img src="./images/logo.png" alt="logo" class="h-8">
+            <span class="text-primary">LaslesVPN</span>
+          </div>
       </a>
-        <ul class="capitalize hidden md:flex space-x-8">
-          <li><a href="#about" class="text-gray-600 hover:text-primary">about</a></li>
-          <li><a href="#features" class="text-gray-600 hover:text-primary">features</a></li>
-          <li><a href="#pricing" class="text-gray-600 hover:text-primary">pricing</a></li>
-          <li><a href="#testimonials" class="text-gray-600 hover:text-primary">testimonials</a></li>
-          <li><a href="#help" class="text-gray-600 hover:text-primary">help</a></li>
-        </ul>
-
-        <div class="space-x-4">
+      <ul class="capitalize hidden md:flex space-x-8">
+        <li><a href="#about" class="text-gray-600 hover:text-primary">about</a></li>
+        <li><a href="#features" class="text-gray-600 hover:text-primary">features</a></li>
+        <li><a href="#pricing" class="text-gray-600 hover:text-primary">pricing</a></li>
+        <li><a href="#testimonials" class="text-gray-600 hover:text-primary">testimonials</a></li>
+        <li><a href="#help" class="text-gray-600 hover:text-primary">help</a></li>
+      </ul>
+      
+      <div class="space-x-4">
           <button class="text-gray-600 hover:text-primary hidden sm:inline-flex">Sign In</button>
           <button class="bg-primary text-white hover:bg-red-600 py-2 px-4 rounded-full cursor-pointer">Sign Up</button>
         </div>
       </nav>
-     </header>
+    </header>
+    
+    <!-- hero section -->
+<section class="max-w-[1440px] container mx-auto px-4 py-28 flex flex-col md:flex-row items-center gap-12">
+  <div class="md:w-1/2 mb-8 md:mb-0 space-y-8">
+    <h1 class="lg:text-6xl md:text-5xl text-4xl font-bold text-heading-text leading-tight">Want anything to be <br class="lg:block hidden"> easy with LaslesVPN.</h1>
+    <p class="text-primary-text text-lg leading-relaxed max-w-xl">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
+ <button class="bg-primary text-white px-12 py-4 rounded-lg hover:bg-red-600 shadow-lg hover:shadow-xl transition duration-300 text-lg font-medium cursor-pointer">Get Started</button>
+  </div>
+  <div class="md:w-1/2">
+    <img src="../src/images/banner.png" alt="banner img" class="w-full">
+  </div>
+</section>
+
+<!-- Statistics section  -->
+<section class="section-container">
+  <div class="bg-white rounded-xl shadow-lg p-8">
+    <div class="flex flex-col md:flex-row justify-around items-center divide-y md:divide-y-0 md:divide-x divide-gray-200">
+      
+      <!-- Users -->
+      <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+        <div class="p-4 shrink-0 bg-secondary/65 rounded-full">
+          <img src="../src/images/user.png" alt="user image">
+        </div>
+        <div>
+          <h3 class="text-3xl font-bold text-gray-900">90+</h3>
+          <p class="text-primary-text">Users</p>
+        </div>
+      </div>
+
+      <!-- Locations -->
+      <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+        <div class="p-4 shrink-0 bg-secondary/65 rounded-full">
+          <img src="../src/images/location.png" alt="location image">
+        </div>
+        <div>
+          <h3 class="text-3xl font-bold text-gray-900">30+</h3>
+          <p class="text-primary-text">Locations</p>
+        </div>
+      </div>
+
+      <!-- Servers -->
+      <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+        <div class="p-4 shrink-0 bg-secondary/65 rounded-full">
+          <img src="../src/images/storage.png" alt="server image">
+        </div>
+        <div>
+          <h3 class="text-3xl font-bold text-gray-900">50+</h3>
+          <p class="text-primary-text">Servers</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
   </body>
 </html>
