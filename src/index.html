@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lasles VPN</title>
     <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <!-- header section -->
@@ -205,8 +211,12 @@
               </li>
             </ul>
             <div class="text-center space-y-4">
-            <div><span class="font-bold text-lg">Free</span></div>
-            <button class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition  duration-300">Select</button>
+              <div><span class="font-bold text-lg">Free</span></div>
+              <button
+                class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+              >
+                Select
+              </button>
             </div>
           </div>
           <div
@@ -237,8 +247,12 @@
               </li>
             </ul>
             <div class="text-center space-y-4">
-            <div class=""><span class="font-bold text-lg">$9</span> / mo</div>
-            <button class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition  duration-300">Select</button>
+              <div class=""><span class="font-bold text-lg">$9</span> / mo</div>
+              <button
+                class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+              >
+                Select
+              </button>
             </div>
           </div>
           <div
@@ -277,12 +291,98 @@
               </li>
             </ul>
             <div class="text-center space-y-4">
-            <div class=""><span class="font-bold text-lg">$20</span> / mo</div>
-            <button class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition  duration-300">Select</button>
+              <div class="">
+                <span class="font-bold text-lg">$20</span> / mo
+              </div>
+              <button
+                class="border-2 border-primary text-primary px-16 py-2 rounded-full hover:bg-red-600 hover:text-white transition duration-300"
+              >
+                Select
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="section-container">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-heading-text mb-4 md:w-1/3 mx-auto">
+          Huge Global Network of Fast VPN
+        </h2>
+        <p class="text-primary-text">
+          See <span class="font-bold">LaslesVPN</span> everywhere to make it
+          easier for you when you move locations.
+        </p>
+      </div>
+      <div class="mb-16">
+        <img src="../src/images/map.png" alt="map" class="w-full" />
+      </div>
+
+      <div class="flex flex-wrap justify-center opacity-75 gap-12">
+        <img
+          src="./images/netflix.png"
+          alt=""
+          class="h-12 grayscale hover:grayscale-0 transition duration-300"
+        />
+        <img
+          src="./images/reddit.png"
+          alt=""
+          class="h-12 grayscale hover:grayscale-0 transition duration-300"
+        />
+        <img
+          src="./images/amazon.png"
+          alt=""
+          class="h-12 grayscale hover:grayscale-0 transition duration-300"
+        />
+        <img
+          src="./images/discord.png"
+          alt=""
+          class="h-12 grayscale hover:grayscale-0 transition duration-300"
+        />
+        <img
+          src="./images/spotify.png"
+          alt=""
+          class="h-12 grayscale hover:grayscale-0 transition duration-300"
+        />
+      </div>
+    </section>
+
+    <section class="section-container">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-heading-text mb-4 md:w-1/3 mx-auto">
+          Trusted by Thousands of Happy Customer
+        </h2>
+        <p class="text-primary-text">
+          These are the stories of our customers who have joined us with great
+          pleasure when using this crazy feature.
+        </p>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper testimonialSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper"></div>
+        <div class="flex justify-between items-center mt-12">
+          <div class="swiper-pagination !relative !bottom-0 !w-auto"></div>
+
+          <div class="flex sm:flex lg:flex xl:flex gap-4">
+            <div
+              class="swiper-button-prev !static !w-[60px] !h-[60px] flex items-center justify-center rounded-full border-2 border-[#F53855] text-[#F53855] hover:bg-red-200 hover:text-primary"
+            >
+              <img src="./images/arrow-left.png" alt="h-6 w-6" />
+            </div>
+            <div
+            class="swiper-button-next !static !w-[60px] !h-[60px] flex items-center justify-center rounded-full border-2 border-[#F53855] bg-primary text-[#F53855] hover:bg-red-200 hover:text-primary"
+            >
+            <img src="./images/arrow-right.png" alt="h-6 w-6" />
+              <!-- <img src="./images/arrow-right.png" alt="h-6 w-6" /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
